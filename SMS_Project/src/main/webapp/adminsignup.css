@@ -1,85 +1,85 @@
 body.signup-body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, #6a11cb, #2575fc);
+	font-family: 'Segoe UI', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .signup-container {
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  width: 100%;
-  max-width: 500px;
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 12px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+	width: 100%;
+	max-width: 500px;
 }
 
 .signup-card h2 {
-  text-align: center;
-  margin-bottom: 25px;
-  color: #2c3e50;
+	text-align: center;
+	margin-bottom: 25px;
+	color: #2c3e50;
 }
 
 .form-group {
-  margin-bottom: 18px;
-  margin-right: 25px;
+	margin-bottom: 18px;
+	margin-right: 25px;
 }
 
 .form-group label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: 600;
-  color: #333;
+	display: block;
+	margin-bottom: 6px;
+	font-weight: 600;
+	color: #333;
 }
 
 .form-group input {
-  width: 100%;
-  padding: 10px 14px;
-  font-size: 15px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  transition: border 0.3s;
+	width: 100%;
+	padding: 10px 14px;
+	font-size: 15px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	transition: border 0.3s;
 }
 
 .form-group input:focus {
-  border-color: #2575fc;
-  outline: none;
+	border-color: #2575fc;
+	outline: none;
 }
 
 .submit-btn {
-  margin: 20px auto 10px;
-  background-color: #2575fc;
-  color: white;
-  border: none;
-  padding: 12px 30px;
-  font-size: 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  display: block;
-  width: fit-content;
-  transition: background-color 0.3s;
+	margin: 20px auto 10px;
+	background-color: #2575fc;
+	color: white;
+	border: none;
+	padding: 12px 30px;
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	display: block;
+	width: fit-content;
+	transition: background-color 0.3s;
 }
 
 .submit-btn:hover {
-  background-color: #1b5fcc;
+	background-color: #1b5fcc;
 }
 
 .switch-link {
-  text-align: center;
-  margin-top: 15px;
-  font-size: 14px;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 14px;
 }
 
 .switch-link a {
-  color: #2575fc;
-  text-decoration: none;
-  font-weight: 500;
+	color: #2575fc;
+	text-decoration: none;
+	font-weight: 500;
 }
 
 .switch-link a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }

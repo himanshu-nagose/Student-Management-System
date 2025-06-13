@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.bo.Admin;
 import com.dao.JDBCDao;
 
 /**
@@ -57,6 +58,16 @@ public class AdminLoginController extends HttpServlet {
 		    }
 
 		    if (authentication) {
+		    	Admin admin = new Admin( 
+		    			rs.getString("passkey"),
+		    			rs.getString("name"),
+		    			rs.getString("email"),
+		    			rs.getString("username"),
+		    			rs.getString("password")
+		    			);
+		    	
+		    	request.getSession().setAttribute("adminDetails", admin); // ✅ Save admin info in session
+
 		        pw.println("<html><body style='text-align:center; font-family:sans-serif;'>");
 		        pw.println("<h2 style='color:green;'>Login Successful!</h2>");
 		        pw.println("<p>Redirecting to Dashboard...</p>");

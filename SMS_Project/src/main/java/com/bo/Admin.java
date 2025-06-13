@@ -7,6 +7,10 @@ public class Admin {
 	private String adminUsername;
 	private String adminPassword;
 	
+	public Admin() {
+		
+	}
+	
 	public Admin(String adminPasskey, String adminName, String adminEmail, String adminUsername, String adminPassword) {
 		super();
 		this.adminPasskey = adminPasskey;
