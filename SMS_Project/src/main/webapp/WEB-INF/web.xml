@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>SMS_Project</display-name>
+  <welcome-file-list>
+  
+  	<welcome-file>index.html</welcome-file>
+  	<welcome-file>index.css</welcome-file>
+  	
+  	<welcome-file>adminsignup.html</welcome-file>
+  	<welcome-file>adminsignup.css</welcome-file>
+  	
+  	<welcome-file>adminlogin.html</welcome-file>
+  	<welcome-file>adminlogin.css</welcome-file>
+  	
+  	<welcome-file>dashboard.html</welcome-file>
+  	<welcome-file>dashboard.css</welcome-file>
+  	
+  	<welcome-file>addstudent.html</welcome-file>
+  	<welcome-file>addstudent.css</welcome-file>
+  	
+  	<welcome-file>viewstudent.jsp</welcome-file>
+  	<welcome-file>viewstudent.css</welcome-file>
+  	
+  </welcome-file-list>
+</web-app>

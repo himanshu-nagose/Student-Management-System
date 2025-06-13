@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Signup | Student Management System</title>
+  <link rel="stylesheet" href="adminsignup.css" />
+  <script>
+    function generatePasskey() {
+      const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      const digits = '0123456789';
+      let result = '';
+
+      for (let i = 0; i < 2; i++) {
+        result += letters.charAt(Math.floor(Math.random() * letters.length));
+      }
+      result += '-';
+
+      for (let i = 0; i < 4; i++) {
+        result += digits.charAt(Math.floor(Math.random() * digits.length));
+      }
+      document.getElementById('adminPasskey').value = result;
+    }
+    window.onload = generatePasskey;
+  </script>
+</head>
+<body class="signup-body">
+  <div class="signup-container">
+    <form method="post" action="AdminSignupController" class="signup-card">
+      <h2>Admin Signup</h2>
+
+      <!-- Auto-generated passkey shown at top -->
+      <div class="form-group">
+        <label for="adminPasskey">Generated Passkey</label>
+        <input type="text" id="adminPasskey" name="adminPasskey" readonly />
+      </div>
+
+      <div class="form-group">
+        <label for="adminName">Full Name</label>
+        <input type="text" id="adminName" name="adminName" required placeholder="Enter full name" />
+      </div>
+
+      <div class="form-group">
+        <label for="adminEmail">Email</label>
+        <input type="email" id="adminEmail" name="adminEmail" required placeholder="Enter email" />
+      </div>
+
+      <div class="form-group">
+        <label for="adminUsername">Username</label>
+        <input type="text" id="adminUsername" name="adminUsername" required placeholder="Create username" />
+      </div>
+
+      <div class="form-group">
+        <label for="adminPassword">Password</label>
+        <input type="password" id="adminPassword" name="adminPassword" required placeholder="Create password" />
+      </div>
+
+      <button type="submit" class="submit-btn">Sign Up</button>
+
+      <p class="switch-link">Already have an account? <a href="adminlogin.html">Login here</a></p>
+    </form>
+  </div>
+</body>
+</html>
