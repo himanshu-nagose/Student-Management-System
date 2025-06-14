@@ -7,22 +7,6 @@
 	<welcome-file-list>
 
 		<welcome-file>index.html</welcome-file>
-		<welcome-file>index.css</welcome-file>
-
-		<welcome-file>adminsignup.html</welcome-file>
-		<welcome-file>adminsignup.css</welcome-file>
-
-		<welcome-file>adminlogin.html</welcome-file>
-		<welcome-file>adminlogin.css</welcome-file>
-
-		<welcome-file>dashboard.html</welcome-file>
-		<welcome-file>dashboard.css</welcome-file>
-
-		<welcome-file>addstudent.html</welcome-file>
-		<welcome-file>addstudent.css</welcome-file>
-
-		<welcome-file>viewstudent.jsp</welcome-file>
-		<welcome-file>viewstudent.css</welcome-file>
-
+	
 	</welcome-file-list>
 </web-app>
