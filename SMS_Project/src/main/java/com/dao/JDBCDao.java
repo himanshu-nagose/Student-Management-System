@@ -18,7 +18,7 @@ public class JDBCDao {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/SMS", "root", "Sam@246");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/database_name", "your_username", "your_password");
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
